@@ -16,12 +16,12 @@
 
 body {
     margin: 0px;
-    background: var(--pastel);
+    background: var(--light-grey);
     font-family: lato;
 }
 
 nav {
-    background: var(--light);
+    background: var(--light-grey);
     height: 15vh;
     display: flex;
     justify-content: space-between;
@@ -38,13 +38,13 @@ img {
     border: 1px solid black;
 }
 
-main .title {
+.intro-main .title {
     font-size: 3.5em;
     justify-self: center;
     padding: 0.3em;
 }
 
-main {
+.intro-main {
     height: 75vh;
     display: flex;
     flex-direction: column;
@@ -73,4 +73,15 @@ button:hover {
     border-radius: 15px;
     font-size: 1em;
     box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.title.about {
+    font-size: 4em;
 }
