@@ -1,0 +1,48 @@
+:root {
+    --pastel: #E0ECE4;
+    --light: #F7F2E7;
+    --light-grey: #D8D3CD;
+    --grey: #797A7E;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background: var(--pastel);
+}
+
+nav {
+    background: var(--light);
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+
+}
+
+img {
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.buttons a button{
+    font-size: 1.4em;
+    padding: 0.8em;
+    margin: 2em;
+    width: 5em;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+}
+
+button:hover {
+    background: var(--light-grey);
+    transition: all 100ms ease-in-out;
+}
