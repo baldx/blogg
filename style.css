@@ -5,6 +5,11 @@
     --grey: #797A7E;
 }
 
+@font-face {
+    font-family: lato;
+    src: url("assets/Lato-Regular.ttf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -12,6 +17,7 @@
 body {
     margin: 0px;
     background: var(--pastel);
+    font-family: lato;
 }
 
 nav {
@@ -32,6 +38,19 @@ img {
     border: 1px solid black;
 }
 
+main .title {
+    font-size: 3.5em;
+    justify-self: center;
+    padding: 0.3em;
+}
+
+main {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .buttons a button{
     font-size: 1.4em;
     padding: 0.8em;
@@ -45,4 +64,13 @@ img {
 button:hover {
     background: var(--light-grey);
     transition: all 100ms ease-in-out;
+}
+
+.intro-container {
+    height: auto;
+    width: 40vw;
+    padding: 1em;
+    border-radius: 15px;
+    font-size: 1em;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
 }
