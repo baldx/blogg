@@ -1,7 +1,7 @@
 :root {
     --pastel: #E0ECE4;
-    --light: #F7F2E7;
-    --light-grey: #D8D3CD;
+    --light: #e3e3e3;
+    --light-grey: #c6c3bf;
     --grey: #797A7E;
 }
 
@@ -16,13 +16,13 @@
 
 body {
     margin: 0px;
-    background: var(--light-grey);
+    background: var(--light);
     font-family: lato;
 }
 
 nav {
     background: var(--light-grey);
-    height: 15vh;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +32,8 @@ nav {
 }
 
 img {
-    width: 200px;
-    height: 80px;
+    width: 100px;
+    height: 40px;
     border-radius: 15px;
     border: 1px solid black;
 }
@@ -52,7 +52,7 @@ img {
 }
 
 .buttons a button{
-    font-size: 1.4em;
+    font-size: 1.1em;
     padding: 0.8em;
     margin: 2em;
     width: 5em;
