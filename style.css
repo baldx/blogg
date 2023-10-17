@@ -18,11 +18,19 @@ body {
     margin: 0px;
     background: var(--light);
     font-family: lato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-body {
+    overflow: hidden;
 }
 
 nav {
     background: var(--light-grey);
     height: 10vh;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +39,7 @@ nav {
 
 }
 
-img {
+.logo {
     width: 100px;
     height: 40px;
     border-radius: 15px;
@@ -76,12 +84,22 @@ button:hover {
 }
 
 .about-main {
+    height: 75vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 8px;
+    justify-content: space-evenly;
+    margin-top: 3em;
 }
 
 .title.about {
     font-size: 4em;
+}
+
+small {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.zyzz-pose {
+    height: 300px;
 }
