@@ -21,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .about-body {
@@ -117,12 +118,14 @@ small {
     align-items: center;
 }
 
-.card {
-    border: 1px solid red;
-    width: 80vw;
-}
 
 .card {
+    background-color: var(--light-grey);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: 1.5em;
+    padding: 1em;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     gap: 20px;
