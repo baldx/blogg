@@ -15,7 +15,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     background: var(--light);
     font-family: lato;
     display: flex;
@@ -57,6 +57,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .buttons a button{
@@ -75,8 +77,7 @@ button:hover {
 }
 
 .intro-container {
-    height: auto;
-    width: 40vw;
+    height: auto;   
     padding: 1em;
     border-radius: 15px;
     font-size: 1em;
@@ -102,4 +103,28 @@ small {
 
 .zyzz-pose {
     height: 300px;
+}
+
+.blog-main .title {
+    font-size: 3.5em;
+    justify-self: center;
+    padding: 0.3em;
+}
+
+.blog-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid red;
+    width: 80vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2em;
 }
