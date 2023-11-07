@@ -3,12 +3,12 @@
     --light: #e3e3e3;
     --light-grey: #c6c3bf;
     --grey: #797A7E;
-}
+} /*Define CSS variables to use without typing the hex code over and over*/
 
 @font-face {
     font-family: lato;
     src: url("assets/Lato-Regular.ttf");
-}
+} /*Add font*/
 
 * {
     box-sizing: border-box;
@@ -22,25 +22,25 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-}
+} /*Style and flexbox*/
 
 .blog-body {
     overflow-x: hidden;
-}
+} /*remove bottom scroll bar*/
 
 .about-body {
     overflow: hidden;
-}
+}  /*remove side and bottom scroll bar*/
 
 nav {
-    background: var(--light-grey);
+    background: var(--light-grey); /*calling CSS variable with var()*/
     height: 10vh;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px; /*Shadow to the container*/
 
 }
 
