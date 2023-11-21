@@ -184,9 +184,13 @@ footer {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
     .intro-main .title {
         font-size: 1em;
+    }
+
+    .buttons a button {
+        margin: 1em;
     }
 
     small {
