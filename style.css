@@ -29,7 +29,7 @@ body {
 } /*remove bottom scroll bar*/
 
 .about-body {
-    overflow: hidden;
+    overflow-x: hidden;
 }  /*remove side and bottom scroll bar*/
 
 nav {
@@ -137,6 +137,13 @@ small {
     font-size: 1.2em;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 2em;
+}
+
 footer {
     height: 5vh;
     background-color: var(--light-grey);
@@ -155,13 +162,11 @@ footer {
     }
 
     .zyzz-pose {
-        height: 250px;
+        height: 250px;  
     }
 
     .info {
-        width: 200px;
         font-size: 1em;
-        background-color: red;
     }
 
     .title.about {
@@ -179,7 +184,15 @@ footer {
     p {
         width: 50%;
     }
-}
+
+    .buttons a button {
+        font-size: 0.9em;
+    }
+
+    .title.about {
+        font-size: 2.5em;
+    }
+ }
 
 @media (max-width: 700px) {
     .intro-main .title {
@@ -190,7 +203,7 @@ footer {
         font-size: 1em;
     }
 
-    small {
+    footer small {
         font-size: 8px;
     }
 
@@ -200,6 +213,10 @@ footer {
 
     .blog-main .title {
         font-size: 3em;
+    }
+
+    .img-container small {
+        font-size: 10px;
     }
 }
 
@@ -223,11 +240,19 @@ footer {
     .card {
         font-size: 1em;
     }
+
+    .zyzz-pose {
+        height: 200px;
+    }
 }
 
 @media (max-width: 450px) {
     small {
         font-size: 5px;
+    }
+
+    .img-container {
+        margin-left: 20px;
     }
 }
 
