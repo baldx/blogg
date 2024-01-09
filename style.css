@@ -175,7 +175,7 @@ form {
 
 .top-input {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 8px;
 }
 
@@ -183,7 +183,7 @@ label {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    width: 25%;
+    width: 30%;
 }
 
 input {
